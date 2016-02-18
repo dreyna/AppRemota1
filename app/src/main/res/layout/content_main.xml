@@ -8,7 +8,7 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:showIn="@layout/activity_main" tools:context=".MainActivity"
     android:weightSum="1">
-
+    <!--
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -16,4 +16,12 @@
         android:id="@+id/btncalcular"
         android:layout_gravity="center_horizontal"
         android:onClick="clickEnviar" />
+        -->
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/listaUser"
+        />
+
+
 </LinearLayout>
